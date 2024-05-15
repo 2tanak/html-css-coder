@@ -1,0 +1,41 @@
+#steps .title2 {
+  margin-bottom: 20px;
+}
+
+.steps__item .text {
+  font-size: 18px;
+  font-size: #050B20;
+}
+.steps__item h6 {
+  color: #405FF2;
+  font-family: "roboto-medium";
+  font-weight: 600;
+  font-size: 22px;
+}
+.steps__item img {
+  width: fit-content;
+  height: fit-content;
+}
+
+.subtitle {
+  margin-bottom: 140px;
+  text-align: center;
+  font-size: 18px;
+  font-family: "roboto-light";
+  font-weight: 200;
+}
+
+.steps__text {
+  text-align: center;
+  font-size: 30px;
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  color: #000;
+  line-height: 140%;
+  font-family: "roboto-thin";
+  font-weight: 200;
+}
+.steps__text span {
+  display: block;
+}

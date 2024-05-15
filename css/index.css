@@ -1,0 +1,22 @@
+#price__ .title2 {
+  text-align: left;
+}
+
+.price__item {
+  display: flex;
+  column-gap: 40px;
+  align-items: start;
+}
+.price__item .text {
+  width: 60%;
+}
+.price__item p {
+  font-size: 19px;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+.price__item img {
+  position: absolute;
+  right: 0;
+  width: 39%;
+}

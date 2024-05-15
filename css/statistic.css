@@ -1,0 +1,20 @@
+#statistic__ {
+  background: var(--base-background);
+}
+
+.statistic p:nth-child(1) {
+  color: #fff;
+  font-size: 45px;
+  font-family: "roboto-bold";
+  margin-bottom: 10px;
+}
+.statistic p:nth-child(2) {
+  font-size: 18px;
+  font-family: "roboto-regular";
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.statistic p:nth-child(2) span {
+  display: block;
+  margin-top: 5px;
+}

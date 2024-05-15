@@ -1,0 +1,26 @@
+#stati__ .title2 {
+  text-align: left;
+  margin-bottom: 50px;
+  font-size: 55px;
+}
+
+.stati__ .stati__img {
+  float: left;
+  margin-right: 40px;
+  margin-bottom: 25px;
+  position: relative;
+}
+.stati__ .stati__img .badge__data {
+  top: 20px;
+  font-size: 16px;
+}
+.stati__ p {
+  margin-bottom: 20px;
+}
+.stati__ .text {
+  line-height: 1.8;
+  text-align: justify;
+}
+.stati__ .text p:nth-of-type(2) {
+  clear: both;
+}

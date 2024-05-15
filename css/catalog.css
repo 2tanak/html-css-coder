@@ -1,0 +1,111 @@
+.burger {
+  display: none;
+}
+
+.side-sidebar:checked ~ .catalog__sidebar {
+  height: 100%;
+  overflow: visible;
+  display: block;
+}
+
+.side-sidebar:checked ~ .burger {
+  margin-bottom: 25px;
+}
+
+.side-sidebar:checked ~ .burger .hamb .hamb-line {
+  background: transparent;
+}
+
+.side-sidebar:checked ~ .burger .hamb .hamb-line::before {
+  transform: rotate(-45deg);
+  top: 0;
+}
+
+.side-sidebar:checked ~ .burger .hamb .hamb-line::after {
+  transform: rotate(45deg);
+  top: 0;
+}
+
+.content {
+  margin-bottom: 100px;
+}
+
+.paginate-info {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-family: "roboto-light";
+}
+
+#catalog__ .title2 {
+  color: #000;
+  text-align: left;
+  font-size: 55px;
+}
+
+.sidebar-content {
+  margin-top: 65px;
+  display: flex;
+  align-items: flex-start;
+}
+.sidebar-content .catalog__sidebar {
+  margin-right: 27px;
+  padding: 20px 20px 25px 20px;
+  width: 371px;
+  border: 1px solid #E9E9E9;
+  border-radius: 15px 15px 0px 0px;
+  box-sizing: border-box;
+}
+.sidebar-content .catalog__sidebar form {
+  width: 331px;
+}
+.sidebar-content .catalog__sidebar form input {
+  font-family: "roboto-regular";
+}
+.sidebar-content .catalog__sidebar .catalog__search {
+  margin-bottom: 16px;
+}
+.sidebar-content .catalog__sidebar .catalog__clear-filter {
+  text-align: center;
+  margin-top: 20px;
+  font-family: "roboto-regular";
+  font-size: 14px;
+  color: #000;
+}
+.sidebar-content .catalog__sidebar .catalog__clear-filter:hover {
+  color: #26388e;
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+  .burger {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+  }
+  .burger p {
+    font-family: "roboto-light";
+    font-weight: 200;
+    font-size: 14px;
+  }
+  .burger .hamb-line {
+    background: #000;
+  }
+  .burger .hamb-line::before,
+  .burger .hamb-line::after {
+    background: #000;
+  }
+  .catalog__sidebar {
+    margin: 0 auto !important;
+    overflow: hidden;
+    height: 0;
+    display: none;
+  }
+  .sidebar-content {
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .sidebar-content .paginate-info {
+    margin-top: 40px;
+    text-align: center;
+  }
+}

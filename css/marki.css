@@ -1,0 +1,31 @@
+#marki__ {
+  padding-bottom: 80px;
+}
+#marki__ .title2 {
+  color: #000;
+  text-align: left;
+  margin-bottom: 60px;
+}
+
+.marki__wrap {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 180px));
+  grid-auto-rows: 158px;
+  justify-content: center;
+  gap: 15px;
+}
+.marki__wrap a {
+  border-radius: 15px;
+  border: 1px solid #E9E9E9;
+  /*width:180px;height:158px;*/
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.marki__wrap a:hover {
+  border: 1px solid #405FF2;
+  color: #405FF2;
+}

@@ -1,0 +1,900 @@
+@charset "UTF-8";
+@media (min-width: 1200px) {
+  .plr {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  #gallery__ .gallery__ {
+    overflow: hidden;
+  }
+  .slider__popular-width1 {
+    width: 1000px;
+  }
+  .swiper-slide {
+    width: fit-content;
+  }
+  .swiper-slide div {
+    max-width: 180px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #E9E9E9;
+    border-radius: 15px;
+    padding: 20px 0;
+  }
+  .swiper-slide div:hover {
+    border: 1px solid #405FF2;
+    color: #405FF2;
+    cursor: pointer;
+  }
+  .swiper-slide p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  #steps {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  #stati__ {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .sucess__ {
+    padding-top: 140px;
+    padding-bottom: 140px;
+  }
+  #review_page {
+    padding-top: 65px;
+    padding-bottom: 120px;
+    border-radius: 0px 0px 80px 80px;
+  }
+  #catalog__ {
+    padding-top: 54px;
+  }
+  .onas__ {
+    padding-top: 54px;
+  }
+  #marki__ {
+    padding-top: 80px;
+  }
+  #page__bar-top {
+    padding-top: 40px;
+  }
+  #property__ {
+    padding-bottom: 105px;
+  }
+  #similar_offers {
+    padding-top: 100px;
+    padding-bottom: 110px;
+    border-radius: 0px 0px 80px 80px;
+  }
+  #page_contacts__ {
+    padding-top: 66px;
+    padding-bottom: 30px;
+  }
+  #contacts-list__ {
+    padding-top: 40px;
+    border-radius: 0px 0px 80px 80px;
+  }
+  .contacts__property1 {
+    margin-top: 70px;
+  }
+  #news__ {
+    padding-top: 60px;
+    padding-bottom: 175px;
+  }
+  #price__ {
+    padding-top: 110px;
+    padding-bottom: 130px;
+  }
+  #contacts__ {
+    padding: 30px 0px 80px 0px;
+  }
+  #special__ {
+    padding-bottom: 101px;
+    padding-top: 107px;
+  }
+  #slider__popular {
+    padding-top: 110px;
+    padding-bottom: 100px;
+  }
+}
+@media (max-width: 1200px) {
+  .swiper-slide {
+    border: 1px solid #E9E9E9;
+    border-radius: 15px;
+  }
+  .swiper-slide div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-slide div:hover {
+    border: 1px solid #405FF2;
+    color: #405FF2;
+    cursor: pointer;
+  }
+  .slider__popular-width1 {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #steps {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  #stati__ {
+    padding-bottom: 40px;
+  }
+  .sucess__ {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  #review_page {
+    padding-bottom: 40px;
+    border-radius: 0px 0px 25px 25px;
+  }
+  #special__, #slider__popular, #new-model, #review__, #review__page-onas {
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+  #special__ .title2, #slider__popular .title2, #new-model .title2, #review__ .title2 {
+    margin-bottom: 40px;
+  }
+  #contacts__ {
+    padding: 40px 0px 40px 0px;
+  }
+  .footer__property {
+    border-radius: 25px 25px 0px 0px;
+  }
+  #price__ {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  #price__ .title2 {
+    margin-bottom: 20px;
+  }
+  #news__ {
+    padding-bottom: 40px;
+  }
+  #contacts-list__ {
+    border-radius: 25px 25px;
+  }
+  .contacts__property1 {
+    margin-top: 70px;
+  }
+  .steps__text {
+    font-size: 20px;
+  }
+  .wrap:before {
+    border-radius: 25px;
+  }
+  .bread_crumb {
+    margin-top: 30px;
+  }
+  #property__ {
+    padding-bottom: 50px;
+  }
+  #similar_offers {
+    padding-top: 50px;
+    border-radius: 25px;
+    padding-bottom: 20px;
+  }
+  .plr, .plr-mobile {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .card__ {
+    justify-content: center !important;
+  }
+  /*---страница об автомобиле похожие предложение---*/
+  .col-mobile, .col-xl-2 {
+    column-gap: 20px;
+  }
+  .col-mobile .special__item, .col-xl-2 .special__item {
+    width: 350px;
+  }
+  .col-mobile .special__item .mark__, .col-xl-2 .special__item .mark__ {
+    grid-template-columns: repeat(3, auto);
+    grid-row-gap: 15px;
+    grid-column-gap: 40px;
+  }
+  .col-mobile .special__item .price__property2, .col-xl-2 .special__item .price__property2 {
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  .col-mobile .special__item .price__property2 div, .col-xl-2 .special__item .price__property2 div {
+    width: auto;
+  }
+  .col-mobile .special__item .price__property2 h3 p, .col-xl-2 .special__item .price__property2 h3 p {
+    text-align: center;
+  }
+}
+/*--sm---*/
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+  form .clear_filter {
+    margin-top: 40px;
+  }
+  form .clear_filter a {
+    font-size: 12px;
+  }
+  .search__menu ul li a {
+    font-size: 20px;
+  }
+  .swiper-slide {
+    border: none;
+    text-align: center;
+  }
+  .swiper-slide div {
+    margin: 0 auto;
+    width: 180px;
+    border: 1px solid #E9E9E9;
+    border-radius: 15px;
+  }
+  .title2 {
+    font-size: 30px !important;
+  }
+  .slider__popular-width1, .slider2 {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #stati__ .title2 {
+    margin-bottom: 30px;
+    font-size: 40px;
+  }
+  .sucess__ .success__title {
+    font-size: 40px;
+  }
+  .sucess__ .success__text {
+    width: 100%;
+  }
+  .sucess__ .success__button a {
+    font-size: 14px;
+  }
+  .level-1 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .level-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .level-3 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .level-4 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .slider__popular-property-1 .my_swiper-button-next {
+    left: 20px;
+  }
+  .slider__popular-property-1 .my_swiper-button-prev {
+    right: 20px;
+  }
+  .contacts__form-propery1, .contacts__form-propery2, .contacts__form-propery3 {
+    width: 100%;
+  }
+  .contacts__form {
+    margin-top: 20px;
+  }
+  .card__badge {
+    left: 9px;
+    top: 10px;
+  }
+  .card__badge span {
+    font-size: 8px;
+    padding: 5px 10px;
+  }
+  .marki__wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .menu__ .contacts a.around {
+    width: 100px;
+    height: 22px;
+    border-radius: 15px;
+  }
+  .menu__ .contacts a {
+    font-size: 12px;
+  }
+  .bread_crumb {
+    /*font-size:8px;*/
+  }
+  .title2 {
+    /* font-size:30px!important;*/
+  }
+  /*страница об автомобиле*/
+  #page__bar-top h6 {
+    font-size: 9px;
+  }
+  #page__bar-top .page__title {
+    display: block;
+    margin-top: 20px;
+  }
+  #page__bar-top .page__title .title2 {
+    font-size: 30px;
+  }
+  #page__bar-top .page__title p {
+    font-size: 21.82px;
+    margin-right: 0px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  #page__bar-top .page__title .page__title__img img {
+    width: 30px;
+    transform: translate(-10px, 0px);
+  }
+  #page__bar-top .page__title .page__title__img span {
+    font-size: 10px;
+  }
+  #page__bar-top .page__title .page__title__img span svg {
+    width: 8px;
+    height: 8;
+  }
+  .badge {
+    width: 27px;
+    height: 11px;
+  }
+  .badge label {
+    width: 12px;
+    height: 9px;
+    border-radius: 25px;
+  }
+  /*---------------*/
+  /*-------news--------*/
+  .news__ {
+    justify-content: center;
+  }
+  .news__ .news__item {
+    width: auto;
+  }
+  .news__ .news__item img {
+    max-width: 100%;
+  }
+  #news__ .title2 {
+    text-align: center;
+  }
+  /*-------news-статьи--------*/
+  .stati__ .stati__img {
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    float: none;
+  }
+  .stati__ .stati__img img {
+    max-width: 100%;
+  }
+  /*---------страница о нас---------*/
+  .onas__item img {
+    display: none;
+  }
+  /*---------блок 5 шагов---------*/
+  .steps__ .steps__item {
+    width: 80% !important;
+    margin: 0 auto;
+  }
+  .button-group {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+  }
+  /*модалка*/
+  .modal__body {
+    width: 100%;
+  }
+  .modal {
+    width: 90% !important;
+  }
+  /*форма поиска каталога и в модалке*/
+  .catalog__sidebar {
+    width: 100% !important;
+  }
+  .catalog__sidebar form {
+    display: block;
+    width: 100% !important;
+  }
+  .switch {
+    width: auto;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .switch .switch__item {
+    padding: 7px 10px 7px 10px;
+    font-size: 14px;
+  }
+}
+/*--md---*/
+@media (min-width: 576px) and (max-width: 768px) {
+  .contacts__form {
+    margin-top: 20px;
+  }
+  .contacts__form-propery1 {
+    width: 100%;
+  }
+  /*страница об автомобиле*/
+  #page__bar-top h6 {
+    font-size: 9px;
+  }
+  #page__bar-top .page__title p {
+    font-size: 21.82px;
+  }
+  #page__bar-top .page__title .page__title__img img {
+    width: 30px;
+    transform: translate(-10px, 0px);
+  }
+  #page__bar-top .page__title .page__title__img span {
+    font-size: 10px;
+  }
+  #page__bar-top .page__title .page__title__img span svg {
+    width: 8px;
+    height: 8;
+  }
+  .badge {
+    width: 27px;
+    height: 11px;
+  }
+  .badge label {
+    width: 12px;
+    height: 9px;
+    border-radius: 25px;
+  }
+  /*-------news--------*/
+  .news__ {
+    justify-content: center;
+  }
+  #news__ .title2 {
+    text-align: center;
+  }
+  /*-------news-статьи--------*/
+  .stati__ .stati__img {
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    float: none;
+  }
+  .stati__ .stati__img img {
+    max-width: 100%;
+  }
+  /*---------страница о нас---------*/
+  .onas__item img {
+    display: none;
+  }
+}
+/*--lg---*/
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .contacts__form {
+    margin-top: 20px;
+  }
+  /*страница об автомобиле*/
+  #page__bar-top .page__title p {
+    font-size: 30px;
+  }
+  /*---------------*/
+  /*-------news--------*/
+  .news__ {
+    justify-content: center;
+  }
+  /*-------news-статьи--------*/
+  .stati__ .stati__img {
+    width: fit-content;
+    float: none;
+  }
+  /*---------страница о нас---------*/
+  .onas__item img {
+    display: none;
+  }
+}
+/*--xl---*/
+@media (min-width: 992px) and (max-width: 1200px) {
+  /*---------страница о нас---------*/
+  .onas__item img {
+    display: none;
+  }
+}
+/*стили для блока цена или купить авто в москве*/
+@media (max-width: 450px) {
+  .price__item img {
+    width: 0;
+    display: none;
+  }
+  .price__item .text {
+    width: 100%;
+  }
+  .price__item .text p {
+    width: 100%;
+  }
+}
+/*стили длч блока статистика*/
+@media (max-width: 800px) {
+  .statistic {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 40px;
+    row-gap: 20px;
+    justify-content: center;
+  }
+  .statistic .statistic__item {
+    text-align: center;
+    padding: 15px 0px;
+  }
+  .statistic .statistic__item p:nth-child(1) {
+    font-size: 40px;
+  }
+  .statistic .statistic__item p:nth-child(2) {
+    font-size: 15px;
+  }
+}
+@media (min-width: 800px) {
+  /*стили длч блока статистика*/
+  .statistic {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 165px;
+  }
+  .statistic__item {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    /*
+    &:nth-of-type(1){
+      flex-grow:1;
+    }
+    &:nth-of-type(2){
+      flex-grow:1;
+    }
+    &:nth-of-type(3){
+      flex-grow:1;
+
+    }
+    &:nth-of-type(4){
+    }
+    */
+  }
+  .statistic__item:last-child:after, .statistic__item:last-child {
+    background: transparent;
+    padding-right: 0px;
+  }
+  .statistic__item div {
+    width: fit-content;
+  }
+  .statistic__item div {
+    flex-grow: 1;
+    text-align: center;
+  }
+  .statistic__item::after {
+    content: "";
+    width: 1px;
+    height: 50px;
+    background: #E9E9E9;
+  }
+}
+/*---стили для блока услуги---*/
+@media only screen and (min-width: 0px) and (max-width: 1069px) {
+  .uslugi__ {
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: max-content;
+    justify-content: center;
+    row-gap: 20px;
+  }
+  .uslugi__ .col__ {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  .uslugi__ .col__ img {
+    width: fit-content;
+    margin-bottom: 10px;
+  }
+  .uslugi__ .col__ .uslugi__text, .uslugi__ .col__ .text {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 533px) {
+  .uslugi__ {
+    display: block;
+  }
+}
+@media (min-width: 1069px) {
+  .uslugi__ {
+    display: flex;
+    height: 185px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+  }
+  .uslugi__ .col__ {
+    display: flex;
+    color: #fff;
+    align-items: start;
+    width: 270px;
+  }
+  .uslugi__ .col__ .uslugi__text {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+  .uslugi__ .col__ img {
+    width: auto;
+    align-self: flex-end;
+    margin-right: 10px;
+  }
+  .uslugi__ .uslugi__title {
+    font-size: 17px;
+    font-family: "roboto-medium";
+    margin-bottom: 10px;
+    color: #fff;
+  }
+}
+/*стили для футер*/
+@media (max-width: 953px) {
+  .footer__flex {
+    flex-direction: columns;
+  }
+  .footer__wrap {
+    row-gap: 40px;
+    /*
+    	.info a{
+    		font-size:12px;
+    	}
+    	p{
+    		font-size:12px;
+    	}
+    */
+    /*
+    .button-radius{
+             background:#fff;
+             width:94px;
+             height:22px;
+    	  font-size:9px;
+    	  line-height:22px;
+        }
+    	*/
+    /*
+    .logo img{
+    	width:40px;
+    }
+    */
+  }
+  .footer__wrap .footer__title {
+    font-size: 16px;
+  }
+}
+@media (min-width: 953px) {
+  .icons__footer a {
+    width: 35px;
+    height: 35px;
+  }
+  .icons.icons__footer a svg {
+    width: 20px;
+    height: 20px;
+    top: 7.5px;
+    left: 7.5px;
+  }
+}
+/*---media для страницы об автомобиле---*/
+@media (max-width: 832px) {
+  #gallery__ .gallery__ {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "big_auto big_auto big_auto big_auto big_auto big_auto" "auto2 auto2 auto2 auto3 auto3 auto3" "auto4 auto4 auto4 auto5 auto5 auto5";
+    gap: 15px;
+  }
+  #gallery__ .gallery__ .gallery__item {
+    width: 100%;
+  }
+  #gallery__ .gallery__ .gallery__item:nth-of-type(1) {
+    flex-grow: 1;
+    width: 100%;
+  }
+  #gallery__ .gallery__ .gallery__item:nth-of-type(2) {
+    grid-area: auto2;
+    width: 100%;
+  }
+  #gallery__ .gallery__ .gallery__item:nth-of-type(3) {
+    grid-area: auto3;
+  }
+  #gallery__ .gallery__ .gallery__item:nth-of-type(4) {
+    grid-area: auto4;
+  }
+  #gallery__ .gallery__ .gallery__item:nth-of-type(5) {
+    grid-area: auto5;
+  }
+  #property__ {
+    flex-wrap: wrap;
+  }
+  #property__ .social__ {
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+}
+@media (min-width: 832px) {
+  #gallery__ .gallery__ {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr 1fr;
+    column-gap: 10px;
+    grid-template-areas: "big_auto big_auto big_auto auto auto" "big_auto big_auto big_auto auto auto";
+  }
+}
+@media (max-width: 400px) {
+  .special__item-property2 {
+    width: auto;
+  }
+  .mark__property-2-mobile {
+    grid-template-columns: repeat(2, auto);
+    grid-row-gap: 10px;
+    grid-column-gap: 25px;
+  }
+  .price__property2-mobile {
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  .price__property2-mobile div {
+    width: 100%;
+  }
+  .price__property2-mobile h3 p {
+    text-align: right;
+  }
+}
+/*---media блок 5 шагов---*/
+@media (max-width: 1200px) {
+  #steps .subtitle {
+    margin-bottom: 60px;
+  }
+  .steps__ .steps__item {
+    background-repeat: no-repeat;
+    background-position: left center;
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  .steps__ .steps__item:nth-of-type(1) {
+    background-image: url("../images/bg_steps1.png");
+  }
+  .steps__ .steps__item:nth-of-type(2) {
+    background-image: url("../images/bg_steps2.png");
+  }
+  .steps__ .steps__item:nth-of-type(3) {
+    background-image: url("../images/bg_steps3.png");
+  }
+  .steps__ .steps__item:nth-of-type(4) {
+    background-image: url("../images/bg_steps4.png");
+  }
+  .steps__ .steps__item:nth-of-type(5) {
+    background-image: url("../images/bg_steps5.png");
+  }
+  .steps__ .steps__item .text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+  }
+  .steps__ .steps__item .text h6 {
+    order: 1;
+    margin-bottom: 8px;
+  }
+  .steps__ .steps__item .text p {
+    order: 2;
+  }
+  .steps__ .steps__item .img {
+    display: none;
+  }
+  .steps__ .steps__item .text {
+    flex-grow: 1;
+    margin-left: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .steps__ {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-image: url(../images/line_steps.png);
+    background-repeat: no-repeat;
+    justify-content: center;
+  }
+  .steps__ .steps__item {
+    width: 25%;
+    height: 300px;
+    display: flex;
+    margin-top: 40px;
+    position: relative;
+  }
+  .steps__ .steps__item .text {
+    font-size: 18px;
+    font-size: #050B20;
+  }
+  .steps__ .steps__item h6 {
+    color: #405FF2;
+    font-family: "roboto-medium";
+    font-weight: 600;
+    font-size: 22px;
+  }
+  .steps__ .steps__item img {
+    width: fit-content;
+    height: fit-content;
+  }
+  .steps__ .steps__item:nth-child(1) {
+    align-items: end;
+  }
+  .steps__ .steps__item:nth-child(1) .text {
+    transform: translateY(-50px);
+    width: 200px;
+  }
+  .steps__ .steps__item:nth-child(1) h6 {
+    margin-top: 5px;
+  }
+  .steps__ .steps__item:nth-child(1) img {
+    position: absolute;
+    right: 35px;
+    bottom: 40px;
+  }
+  .steps__ .steps__item:nth-child(2) {
+    align-items: start;
+    justify-content: center;
+  }
+  .steps__ .steps__item:nth-child(2) .text {
+    transform: translateX(90px);
+    margin-top: -40px;
+  }
+  .steps__ .steps__item:nth-child(2) h6 {
+    margin-top: 5px;
+  }
+  .steps__ .steps__item:nth-child(2) p span {
+    display: block;
+  }
+  .steps__ .steps__item:nth-child(2) img {
+    position: absolute;
+    top: 0px;
+    left: 60px;
+  }
+  .steps__ .steps__item:nth-child(3) {
+    align-items: start;
+    justify-content: end;
+    justify-content: center;
+  }
+  .steps__ .steps__item:nth-child(3) h6 {
+    margin-top: 5px;
+  }
+  .steps__ .steps__item:nth-child(3) .text {
+    transform: translateX(120px);
+    margin-top: -140px;
+  }
+  .steps__ .steps__item:nth-child(3) img {
+    position: absolute;
+    top: 0px;
+    right: 40px;
+  }
+  .steps__ .steps__item:nth-child(4) {
+    justify-content: center;
+    align-items: end;
+  }
+  .steps__ .steps__item:nth-child(4) h6 {
+    margin-bottom: 5px;
+  }
+  .steps__ .steps__item:nth-child(4) .text {
+    transform: translateX(60px);
+    margin-bottom: -200px;
+    width: 200px;
+  }
+  .steps__ .steps__item:nth-child(4) img {
+    background: #fff;
+    position: absolute;
+    left: 70px;
+    bottom: 10px;
+  }
+  .steps__ .steps__item:nth-child(5) {
+    width: 300px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -20px;
+  }
+  .steps__ .steps__item:nth-child(5) h6 {
+    margin-bottom: 5px;
+  }
+}

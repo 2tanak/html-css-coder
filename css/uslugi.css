@@ -1,0 +1,13 @@
+.uslugi__ {
+  background: var(--base-background);
+  border-radius: 35px;
+}
+.uslugi__ .col__ {
+  color: #fff;
+}
+.uslugi__ .col__ .uslugi__title {
+  font-size: 17px;
+  font-family: "roboto-medium";
+  margin-bottom: 10px;
+  color: #fff;
+}
